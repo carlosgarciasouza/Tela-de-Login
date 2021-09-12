@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    background: linear-gradient(220deg, black 20%, #ff4500 100%) no-repeat;
+}
+body::-webkit-scrollbar{
+    width: 0;
+}
+div.container{
+    border: 2px solid red;
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 10px;
+    width: 60%;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+input{
+    height: 40px;
+    width: 70%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+img{
+    margin: -60px 0 30px 0;
+}
+input.email{
+    background-image: url('../images/icone-usuario.png');
+}
+input.password{
+    background-image: url('../images/icone-cadeado.png');
+}
+input.submit, input.new-account{
+    background: #F47C2C;
+    border-radius: 2px;
+}
+input.new-account:hover, input.submit:hover{
+    background: #fff;
+    transition: linear;
+    transition-duration: .4s;
+}
+a{
+    letter-spacing: 1.5px;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+a:hover{
+    color: #fff;
+}

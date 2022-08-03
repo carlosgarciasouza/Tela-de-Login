@@ -4,69 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Copersucar.br</title>
     <link rel="stylesheet" href="./Style/style.css"/>
-    <link rel="icon" href="./images/sh.png">
+    <link rel="icon" href="./images/icone-cadeado.png">
+    <script src="./Script/Script.js" defer></script>
   </head>
   <body>
     <div class="container">
         <img src="./images/perfil-1.png" alt="">
-        <form action="#">
+        <form action="" id="forms01">
             <label for="#">
             <div>
               <div class="Question">
                 <p>O objetivo busca automatizar uma tarefa?</p>
               </div>
-              <input class="resposta" type="text" placeholder="Resposta...">
+              <input class="resposta" type="text" placeholder="Resposta..." id="Q1"> <!--0-->
                 <div class="Question">
                   <p>O Processo é repetitivo?</p>
                 </div>
                 <div>
-                  <input class="resposta" type="text" placeholder="Resposta...">
+                  <input class="resposta" type="text" placeholder="Resposta..." id="Q2"> <!--1-->
                 </div>
                 <div class="Question">
                   <p>Existem regras claras para o Processo/Objetivo?</p>
                 </div>
-                <input class="resposta" type="text" placeholder="Resposta...">
+                <input class="resposta" type="text" placeholder="Resposta..." id="Q3"> <!--2-->
                   <div class="Question twoline">
                     <p>O objetivo/Processo envolve uma UTILIZAÇÃO de fontes externas (Como sites, API's, softwares...)?</p>
                   </div>
                   <div>
-                    <input class="resposta" type="text" placeholder="Resposta...">
+                    <input class="resposta" type="text" placeholder="Resposta..." id="Q4"> <!--3-->
                   </div>
                   <div class="Question">
                     <p>O Processo é Realizado 100% no SAP?</p>
                   </div>
                   <div>
-                    <input class="resposta" type="text" placeholder="Resposta...">
+                    <input class="resposta" type="text" placeholder="Resposta..." id="Q5"> <!--4-->
                   </div>
                   <div class="Question twoline">
                     <p>O objetivo envolve uma CONTRATAÇÃO de fontes externas (Sites, API's, Consultorias, softwares...)?</p>
                   </div>
                   <div>
-                    <input class="resposta" type="text" placeholder="Resposta...">
+                    <input class="resposta" type="text" placeholder="Resposta..." id="Q6"> <!--5-->
                   </div>
                   <div class="Question twoline">
                     <p>O Processo/Objetivo visa reduzir desperdicios? (tais como: transporte, Inventario, Processamento Excessivo e/ou defeito(s))</p>
                   </div>
                   <div>
-                    <input class="resposta" type="text" placeholder="Resposta...">
+                    <input class="resposta" type="text" placeholder="Resposta..." id="Q7"> <!--6-->
                   </div>
                   <div class="Question">
                     <p>Existe alguma dependencia da T.I para atingir o Objetivo/Processo?</p>
                   </div>
                   <div>
-                    <input class="resposta" type="text" placeholder="Resposta...">
+                    <input class="resposta" type="text" placeholder="Resposta..." id="Q8"> <!--7-->
                   </div>
               </div>
                  <div>
                    </a>
-                   <input class="submit" type="submit" value="Login" href="">
+                   <input class="submit" id="enviar" type="submit" value="Enviar" href=""> <!--8-->
                     <!-- <input class="new-account" type="submit" value="Criar Conta"><br> -->
                     <!-- <a href="../Home/index-home.html" target="blank">esqueceu a senha?</a> -->
                 </div>
             </label>
         </form>
     </div>
+
+
+
+
+
+
+    </script>
   </body>
 </html>

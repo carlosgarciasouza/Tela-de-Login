@@ -46,13 +46,10 @@ div.twoline{
     margin: 0;
 }
 img{
-    margin: -11% 0 30px 0;
+    margin: 5% 0 30px 0;
 }
 input.resposta{
     background-image: url('../images/icone-usuario.png');
-}
-input.password{
-    background-image: url('../images/icone-cadeado.png');
 }
 input.submit, input.new-account{
     color: #fff;

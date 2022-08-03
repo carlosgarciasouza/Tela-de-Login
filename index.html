@@ -5,71 +5,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Copersucar.br</title>
-    <link rel="stylesheet" href="./Style/style.css"/>
-    <link rel="icon" href="./images/icone-cadeado.png">
+    <link rel="stylesheet" href="./Style/style.css" />
+    <link rel="icon" href="./images/icone-cadeado.png" />
   </head>
   <body>
     <div class="container">
-        <img src="./images/perfil-1.png" alt="">
-        <form action="" id="forms01">
-            <label for="#">
-            <div>
-              <div class="Question">
-                <p>O objetivo busca automatizar uma tarefa?</p>
-              </div>
-              <input class="resposta" type="text" placeholder="Resposta..." id="Q1"> <!--0-->
-                <div class="Question">
-                  <p>O Processo é repetitivo?</p>
-                </div>
-                <div>
-                  <input class="resposta" type="text" placeholder="Resposta..." id="Q2"> <!--1-->
-                </div>
-                <div class="Question">
-                  <p>Existem regras claras para o Processo/Objetivo?</p>
-                </div>
-                <input class="resposta" type="text" placeholder="Resposta..." id="Q3"> <!--2-->
-                  <div class="Question twoline">
-                    <p>O objetivo/Processo envolve uma UTILIZAÇÃO de fontes externas (Como sites, API's, softwares...)?</p>
-                  </div>
-                  <div>
-                    <input class="resposta" type="text" placeholder="Resposta..." id="Q4"> <!--3-->
-                  </div>
-                  <div class="Question">
-                    <p>O Processo é Realizado 100% no SAP?</p>
-                  </div>
-                  <div>
-                    <input class="resposta" type="text" placeholder="Resposta..." id="Q5"> <!--4-->
-                  </div>
-                  <div class="Question twoline">
-                    <p>O objetivo envolve uma CONTRATAÇÃO de fontes externas (Sites, API's, Consultorias, softwares...)?</p>
-                  </div>
-                  <div>
-                    <input class="resposta" type="text" placeholder="Resposta..." id="Q6"> <!--5-->
-                  </div>
-                  <div class="Question twoline">
-                    <p>O Processo/Objetivo visa reduzir desperdicios? (tais como: transporte, Inventario, Processamento Excessivo e/ou defeito(s))</p>
-                  </div>
-                  <div>
-                    <input class="resposta" type="text" placeholder="Resposta..." id="Q7"> <!--6-->
-                  </div>
-                  <div class="Question">
-                    <p>Existe alguma dependencia da T.I para atingir o Objetivo/Processo?</p>
-                  </div>
-                  <div>
-                    <input class="resposta" type="text" placeholder="Resposta..." id="Q8"> <!--7-->
-                  </div>
-              </div>
-                 <div>
-                   </a>
-                   <input class="submit" id="enviar" type="submit" value="Enviar" href=""> <!--8-->
-                    <!-- <input class="new-account" type="submit" value="Criar Conta"><br> -->
-                    <!-- <a href="../Home/index-home.html" target="blank">esqueceu a senha?</a> -->
-                </div>
-            </label>
-        </form>
+      <img src="./images/perfil-1.png" alt="" />
+      <form action="" id="forms01">
+        <label for="#">
+          <div>
+
+<!-- ---  QUESTION 1  --- -->
+
+            <div class="Question">
+              <p>O objetivo busca automatizar uma tarefa?</p>
+            </div>
+            <div class="Question-Result" id="Question-Result1">
+              <label>
+                <input class="Question-Option" type="radio" name="Q1" value="sim" id=""/><p>sim</p>
+              </label>
+              <label>
+                <input class="Question-Option" type="radio" name="Q1" value="não" id=""/><p>não</p>
+              </label>
+            </div>
+
+<!-- ---  QUESTION 2  --- -->
+
+            <div class="Question">
+              <p>O Processo é repetitivo?</p>
+            </div>
+            <div class="Question-Result" id="Question-Result2">
+              <label>
+                <input class="Question-Option" type="radio" name="Q2" value="sim" id=""/><p>sim</p>
+              </label>
+              <label>
+                <input class="Question-Option" type="radio" name="Q2" value="não" id=""/><p>não</p>
+              </label>
+            </div>
+
+<!-- ---  QUESTION 3  --- -->
+
+            <div class="Question">
+              <p>Existem regras claras para o Processo/Objetivo?</p>
+            </div>
+            <div class="Question-Result" id="Question-Result3">
+              <label>
+                <input class="Question-Option" type="radio" name="Q3" value="sim" id=""/><p>sim</p>
+              </label>
+              <label>
+                <input class="Question-Option" type="radio" name="Q3" value="não" id=""/><p>não</p>
+              </label>
+            </div>
+
+<!-- ---  QUESTION 4  --- -->
+
+            <div class="Question twoline">
+              <p>
+                O objetivo/Processo envolve uma UTILIZAÇÃO de fontes externas
+                (Como sites, API's, softwares...)?
+              </p>
+            </div>
+            <div class="Question-Result" id="Question-Result4">
+              <label>
+                <input class="Question-Option" type="radio" name="Q4" value="sim" id=""/><p>sim</p>
+              </label>
+              <label>
+                <input class="Question-Option" type="radio" name="Q4" value="não" id=""/><p>não</p>
+              </label>
+            </div>
+
+<!-- ---  QUESTION 5  --- -->
+
+            <div class="Question">
+              <p>O Processo é Realizado 100% no SAP?</p>
+            </div>
+            <div class="Question-Result" id="Question-Result5">
+              <label>
+                <input class="Question-Option" type="radio" name="Q5" value="sim" id=""/><p>sim</p>
+              </label>
+              <label>
+                <input class="Question-Option" type="radio" name="Q5" value="não" id=""/><p>não</p>
+              </label>
+            </div>
+
+<!-- ---  QUESTION 6  --- -->
+
+            <div class="Question twoline">
+              <p>
+                O objetivo envolve uma CONTRATAÇÃO de fontes externas (Sites,
+                API's, Consultorias, softwares...)?
+              </p>
+            </div>
+            <div class="Question-Result" id="Question-Result6">
+              <label>
+                <input class="Question-Option" type="radio" name="Q6" value="sim" id=""/><p>sim</p>
+              </label>
+              <label>
+                <input class="Question-Option" type="radio" name="Q6" value="não" id=""/><p>não</p>
+              </label>
+            </div>
+
+<!-- ---  QUESTION 7 --- -->
+
+            <div class="Question twoline">
+              <p>
+                O Processo/Objetivo visa reduzir desperdicios? (tais como:
+                transporte, Inventario, Processamento Excessivo e/ou defeito(s))
+              </p>
+            </div>
+            <div class="Question-Result" id="Question-Result7">
+              <label>
+                <input class="Question-Option" type="radio" name="Q7" value="sim" id=""/><p>sim</p>
+              </label>
+              <label>
+                <input class="Question-Option" type="radio" name="Q7" value="não" id=""/><p>não</p>
+              </label>
+            </div>
+
+<!-- ---  QUESTION 8  --- -->
+
+            <div class="Question">
+              <p>
+                Existe alguma dependencia da T.I para atingir o
+                Objetivo/Processo?
+              </p>
+            </div>
+            <div class="Question-Result" id="Question-Result8">
+              <label>
+                <input class="Question-Option" type="radio" name="Q8" value="sim" id=""/><p>sim</p>
+              </label>
+              <label>
+                <input class="Question-Option" type="radio" name="Q8" value="não" id=""/><p>não</p>
+              </label>
+            </div>
+          </div>
+
+<!-- ---  SUBMIT --- -->
+
+          <div>
+            <input
+              class="submit"
+              id="enviar"
+              type="submit"
+              value="Enviar"
+              href=""
+            />
+          </div>
+        </label>
+      </form>
     </div>
-
-
 
 
 

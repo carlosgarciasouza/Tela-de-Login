@@ -1,69 +1,101 @@
 body{
     max-height: 200vh;
+
+    margin: 0;
+
     background: linear-gradient(220deg, white 10%, #00377B 100%) no-repeat;
 }
 body::-webkit-scrollbar{
     width: 0;
 }
 div.container{
-    border: 2px solid #00377B;
-    background-color: rgba(211, 211, 211, 0.521);
-    border-radius: 10px;
-    box-shadow: 1px 1px #00377B;
-    width: 60%;
     max-height: 200vh;
+    width: 60%;
+
     margin: 0 auto;
     margin-top: 20vh;
+    border: 2px solid #00377B;
+    border-radius: 10px;
+    
+    box-shadow: 1px 1px #00377B;
     text-align: center;
-}
 
-input{
+    background-color: rgba(211, 211, 211, 0.521);
+}
+input.resposta{
     height: 40px;
     width: 70%;
-    margin-bottom: 10px;
-    background-color: #fff;
+
+    margin: 0  0 10px 0;
     padding-left: 40px;
     border: none;
+
     background-repeat: no-repeat;
+    background-color: #fff;
     background-position: 10px;
 }
 div.Question{
     height: 5vh;
     width: 75%;
+
     margin: 0 auto;
     padding-top:20px;
-    /*
-    background-color: #fff;
-    padding: auto 7% auto 5%; */
     border: none;
+
     display: flex;
+}
+div.Question-Result{
+    height: 4vh;
+    width: 75%;
+
+    padding: 0;
+    margin: 0 auto;
+
+    text-transform: capitalize;
+
+    display: flex;
+    justify-content: flex-start;
+}
+div.Question-Result label{
+    width: 10vw;
+
+    display: flex;
+    justify-content: center;
+}
+.Question-Option{
+    height: 20px;
+    width: 20px;
+}
+.Question-Result p{
+    margin: 5px 0 0 2px;
 }
 div.twoline{
     padding: 10px;
 }
 .Question p{
-    text-align: left;
     margin: 0;
+    text-align: left;
 }
 img{
     margin: 5% 0 30px 0;
 }
-input.resposta{
-    background-image: url('../images/icone-usuario.png');
-}
 input.submit, input.new-account{
+    height: 40px;
+    width: 70%;
+
+    margin: 10px 0;
+    border: 2px solid #00377B;
+    border-radius: 2px;
+
     color: #fff;
     background: #00377B;
-    border-radius: 2px;
 }
-/* input.new-account:hover, input.submit:hover{
-    background: #fff;
-    transition: linear;
-    transition-duration: .4s;
-} */
 a{
     letter-spacing: 1.5px;
+    
     color: black;
-    display: block;
+
     text-align: center;
+
+    display: block;
 }

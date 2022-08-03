@@ -64,6 +64,38 @@ btn.addEventListener("click", function(e) {
     //     console.log("Outra Categoria");
     //     alert("Outra Categoria");
     // }
+
+    // if(valueQ1 && valueQ2 && valueQ3 && valueQ5 && valueQ6 == "sim" && valueQ4 && valueQ7 && valueQ8 =="não"){
+    //     console.log("Projetos e Melhoria SAP");
+    //     alert("Projetos e Melhoria SAP"); 
+    // }else{
+    //     console.log("Outra Categoria");
+    //     alert("Outra Categoria");
+    // }
+
+    // if(valueQ1 && valueQ2 && valueQ3 && valueQ5 && valueQ6 == "sim" && valueQ4 && valueQ7 && valueQ8 =="não"){
+    //     console.log("Projetos e Melhoria SAP");
+    //     alert("Projetos e Melhoria SAP"); 
+    // }else{
+    //     console.log("Outra Categoria");
+    //     alert("Outra Categoria");
+    // }
+
+    // if(valueQ1 && valueQ2 && valueQ3 && valueQ5 && valueQ6 == "sim" && valueQ4 && valueQ7 && valueQ8 =="não"){
+    //     console.log("Projetos e Melhoria SAP");
+    //     alert("Projetos e Melhoria SAP"); 
+    // }else{
+    //     console.log("Outra Categoria");
+    //     alert("Outra Categoria");
+    // }
+    
+    // if(valueQ1 && valueQ2 && valueQ3 && valueQ5 && valueQ6 == "sim" && valueQ4 && valueQ7 && valueQ8 =="não"){
+    //     console.log("Projetos e Melhoria SAP");
+    //     alert("Projetos e Melhoria SAP"); 
+    // }else{
+    //     console.log("Outra Categoria");
+    //     alert("Outra Categoria");
+    // }
 });
 
 

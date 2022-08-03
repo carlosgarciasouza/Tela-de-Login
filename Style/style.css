@@ -56,18 +56,14 @@ input.submit, input.new-account{
     background: #00377B;
     border-radius: 2px;
 }
-input.new-account:hover, input.submit:hover{
+/* input.new-account:hover, input.submit:hover{
     background: #fff;
     transition: linear;
     transition-duration: .4s;
-}
+} */
 a{
     letter-spacing: 1.5px;
     color: black;
     display: block;
     text-align: center;
-}
-
-a:hover{
-    color: #fff;
 }

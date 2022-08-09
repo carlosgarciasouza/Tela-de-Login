@@ -11,17 +11,49 @@ body::-webkit-scrollbar{
 
 header{
     width: 100%;
-    height: 2vh;
+    height: 5.5vh;
     background-color: #00377B;
+}
+header div.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+header div.header-container ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    list-style: none;
+    margin: auto;
+    display: inline-block;
+    
+    height: 5vh;
+}
+header div.header-container ul li{
+    display: inline-block;
+
+    margin: 1.2vh 0;
+}
+header div.header-container a{
+    /* display: inline-block; */
+    text-decoration: none;
+    margin: 1vh .5vw;
+
+    border-bottom: 2px solid red;
+    color: #fff;
+}
+
+header div.header-container img{
+    height: 4.5vh;
+    margin: auto 1% 0 0;
 }
 div.container{
     max-height: 200vh;
-    width: 60%;
+    width: 80%;
 
     margin: 20vh auto 10vh auto;
     border: 2px solid #00377B;
     border-radius: 10px;
-    
+
     box-shadow: 1px 1px #00377B;
     text-align: center;
 
@@ -53,10 +85,16 @@ div.Question-Result{
     height: 4vh;
     width: 75%;
 
-    padding: 0;
+    padding: 1vh 1vw;
     margin: 0 auto;
 
-    text-transform: capitalize;
+    /* border: 2px solid #001d41; */
+    border-radius: 20px;
+    background-color: #ffff;
+    color: black;
+
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 
     display: flex;
     justify-content: flex-start;
@@ -84,6 +122,9 @@ div.twoline{
 img{
     margin: 5% 0 30px 0;
 }
+.button-submit{
+    margin-top: 2vh;
+}
 input.submit, input.new-account{
     height: 40px;
     width: 70%;
@@ -97,7 +138,7 @@ input.submit, input.new-account{
 }
 a{
     letter-spacing: 1.5px;
-    
+
     color: black;
 
     text-align: center;
@@ -113,8 +154,8 @@ footer{
 
 
 
-/* --- 
-terça e quinta 15h-16h 
+/* ---
+terça e quinta 15h-16h
 
 guilherme
 ---*/

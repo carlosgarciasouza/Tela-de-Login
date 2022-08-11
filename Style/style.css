@@ -37,9 +37,12 @@ header div.header-container a{
     /* display: inline-block; */
     text-decoration: none;
     margin: 1vh .5vw;
-
-    border-bottom: 2px solid red;
+    
     color: #fff;
+}
+header div.header-container a:hover{
+    border-bottom: 2px solid red;
+
 }
 
 header div.header-container img{

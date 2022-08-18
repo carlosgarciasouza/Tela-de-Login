@@ -12,7 +12,7 @@ btn.addEventListener("click", function(e) {
     console.log("Valor Q2: " + valueQ2);       // Console.log
 
     const Q3 = document.querySelector('input[name="Q3"]:checked'); // Vincular com item HTML
-    const valueQ3 = Q3.value;                 // Obter valor do item  
+    const valueQ3 = Q3.value;                   // Obter valor do item  
     console.log("Valor Q3: " + valueQ3);      // Console.log
 
     const Q4 = document.querySelector('input[name="Q4"]:checked'); // Vincular com item HTML

@@ -105,6 +105,47 @@ div.sub-container:nth-child(1){
     overflow-y: scroll;
     
 }
+
+
+
+
+
+
+
+
+div.main{
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 10px #777777;
+    width: 90%;
+    height: 40vh;
+    margin: 0 auto 5vh 5vw;
+
+    border-radius: 10px;
+}
+
+
+div.sub-container:nth-child(4){
+    background-color: limegreen;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* div.sub-container:nth-child(2){
 
 } */

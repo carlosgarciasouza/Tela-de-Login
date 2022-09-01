@@ -3,6 +3,16 @@ const btn = document.querySelector("#enviar")
 btn.addEventListener("click", function(e) {
 
     e.preventDefault();
+
+
+    let RPA;
+    let SAP;
+    let Kaizen;
+
+
+
+
+
     const Q1 = document.querySelector('input[name="Q1"]:checked'); // Vincular com item HTML
     const valueQ1 = Q1.value;                 // Obter valor do item
     console.log("Valor Q1: " + valueQ1);      // Console.log
@@ -62,6 +72,104 @@ btn.addEventListener("click", function(e) {
          alert("encaminhar usuário para: Teste");
      }
 
+
+
+
+
+     if(valueQ1 = "sim"){ //O objetivo busca automatizar uma tarefa?
+        RPA = 20;
+        SAP = 10;
+        Kaizen = 5;
+    
+        
+    }else{
+        RPA = 0;
+
+    }
+    
+    
+    if(valueQ2 = "sim"){ // Processo repetitivo?
+         RPA = 20;
+
+
+     }else{
+        RPA = 0;
+
+
+    }
+    if(valueQ3 = "sim"){ //Existem regras claras?
+        RPA = 20;
+        
+
+    }else{
+       RPA = 5;
+
+       
+   }
+   if(valueQ4 = "sim"){ //O objetivo/Processo envolve uma UTILIZAÇÃO de fontes externas (Como sites, API's, softwares...)?
+    RPA = 20;
+
+
+}else{
+   RPA = 0;
+
+   
+}
+if(valueQ5 = "sim"){ //O Processo é Realizado 100% no SAP?
+    RPA = 10;
+    SAP = 20;
+
+
+}else{
+    SAP= 0;
+
+   
+}
+if(valueQ6 = "sim"){ //O objetivo envaolve uma CONTRATAÇÃO de fontes externas (Sites, API's, Consultorias, softwares...)?
+    RPA = 5;
+
+
+}else{
+   RPA = 10;
+
+   
+}
+if(valueQ7 = "sim"){ //O Processo/Objetivo visa reduzir desperdicios? (tais como: transporte, Inventario, Processamento Excessivo e/ou defeito(s))
+    RPA = 10;
+
+
+}else{
+   RPA = 0;
+
+   
+}
+if(valueQ8 = "sim"){ //Existe alguma dependencia da T.I para atingir o Objetivo/Processo?
+    RPA = 10;
+
+
+}else{
+   RPA = 0;
+
+   
+}
+if(valueQ9 = "sim"){ // O Objetivo é voltado para um projeto de Kaizen?
+RPA = 10;
+
+
+}else{
+   RPA = 0;
+
+   
+}
+if(value10 = "sim"){ // O processo/Objetivo busca melhoria continua?
+    RPA = 10;
+
+
+}else{
+   RPA = 0;
+
+   
+}
 
     // if(valueQ1 && valueQ2 && valueQ3 && valueQ5 && valueQ6 == "sim" && valueQ4 && valueQ7 && valueQ8 =="não"){
     //     console.log("Projetos e Melhoria SAP");
